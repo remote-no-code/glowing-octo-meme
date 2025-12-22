@@ -1,17 +1,18 @@
-# Up/Down Counter
+# Day 2 – Counters
 
-## Description
-This module implements a synchronous up/down counter with enable and direction
-control. The counter increments or decrements based on the direction signal.
+## Overview
+This day focuses on designing and verifying synchronous counters using Verilog.
+Multiple counter variants were implemented to understand reset behavior,
+enable gating, wrap logic, and parameterization.
 
-## Behavior
-- rst = 1 → counter resets to 0
-- en = 0 → counter holds its value
-- en = 1, dir = 1 → counter counts up
-- en = 1, dir = 0 → counter counts down
-- Counter wraps automatically based on width
+## Implemented Blocks
+- Synchronous up counter
+- MOD-5 counter with controlled wrap
+- Synchronous down counter
+- Up/down counter with direction control
 
-## Files
-- up_down_counter.v     : RTL design
-- up_down_counter_tb.v  : Testbench
-
+## Key Learnings
+- Difference between enable and reset
+- Controlled vs natural wrap-around
+- Importance of parameterized RTL
+- Writing clean, self-checking testbenches
