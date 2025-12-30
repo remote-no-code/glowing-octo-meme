@@ -33,8 +33,8 @@ and glitch-free behavior.
 - Verified detection and overlapping behavior using waveform analysis
 
 ## Files
-- `rtl/seq_101_fsm.v` – Moore FSM RTL
-- `tb/seq_101_fsm_tb.v` – Testbench
+- `seq_101_fsm.v` – Moore FSM RTL
+- `seq_101_fsm_tb.v` – Testbench
 
 ## Learning Outcome
 - Moore FSM architecture
